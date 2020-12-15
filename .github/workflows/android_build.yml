@@ -13,7 +13,7 @@ jobs:
 
       - name: Set config JDK for android build
         uses: actions/setup-java@v1
-          with:
+        with:
             java-version: 1.8
 
       - name: Run Tests
